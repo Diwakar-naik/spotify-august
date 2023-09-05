@@ -1,0 +1,103 @@
+*{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.music_player{
+  position: fixed;
+  bottom: 21px;
+  width: 1728;
+  height: 80px;
+  box-sizing: border-box;
+}
+.artist{
+  width: 225;
+  height: 70;
+}
+.listen{
+  position: fixed;
+  bottom: 0;
+  height: 21px;
+  width: 1728px;
+  background-color: rgb(73, 216, 73);
+  z-index: 1;
+}
+.sp{
+  margin-left: 900px;
+}
+.vector{
+  position: fixed;
+  bottom: 21px;
+  right:130px;
+  z-index: 1;
+}
+
+.left-section{
+  width: 400px;
+  height: 982px;
+  background-color: black;
+  font-size: large;
+  position: sticky;
+  top: 0px;
+  bottom: 110px;
+}
+.home,.search,.library,.c-play,.episode,.liked
+{
+  height: 40px;
+  width: 220px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+.podcast{
+  margin-left: -18px;
+}
+.fav,.install{
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.gm2{
+  margin-right: 80px;
+}
+
+.main{
+  width: 1356px;
+  background-color: #141414;
+}
+.ls{
+  background-color: #303030;
+  width: 250px;
+  height: 80px;
+  border-radius: 3px;
+}
+.ls>div{
+  font-size: medium;
+}
+.ben{
+  color: gray;
+  width: 140px;
+  height: 21px;
+}
+.see{
+  color: gray;
+  font-size: x-small;
+  margin-right: 20px;
+}
+.artist1{
+  background-color: #181818;
+  width:250px ;
+  height:313px;
+  margin-right: 15px;
+}
+.artists{
+  margin-right: 100px;
+}
+.week
+{
+  width: 211px;
+  height: 27px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
